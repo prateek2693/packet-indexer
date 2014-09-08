@@ -1,0 +1,23 @@
+1) Usage of Index Query
+
+Options for fields:
+ SrcIp or DstIp or SrcPort or DstPort or Protocol 
+
+Format 
+	field=value
+
+Note: For protocol, protocol=0 means TCP
+		    protocol=1 mean UDP
+
+Example:
+	SrcPort=80
+	Protocol=0
+
+
+2)BPF query
+	
+Regular syntax for constructing BPF queries
+
+
+Note:We have used the file 1.cap(which is present in this folder) as our input file.
+
